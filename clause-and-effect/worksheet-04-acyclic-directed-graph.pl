@@ -9,8 +9,8 @@ a(b, f).
 a(b, c).
 a(f, c).
 
-path(X,X).
-path(X,Y) :- a(X, Z), path(Z, V).
+path(X, X).
+path(X, Y) :- a(X, Z), path(Z, V).
 
 %% path(f, f).
 %% path(a, c).

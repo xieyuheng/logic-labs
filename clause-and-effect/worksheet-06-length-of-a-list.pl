@@ -22,6 +22,6 @@ list_length([_ | T], N) :-
 %%   A1 is A + 1,
 %%   accumulate(T, A1, N).
 
-%% length([apple,pear], N).
-%% length(L, 3).
-%% length([alpha], 2).
+%% list_length([apple, pear], N).
+%% list_length(L, 3). %% infinite loop at second result
+%% list_length([alpha], 2).
